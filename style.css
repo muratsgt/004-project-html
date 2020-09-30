@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav{
+    display: flex;
+}
+
+nav a{
+    padding: 10px 15px;
+    float: left;
+    text-decoration: none;
+}
+
+#defaultNav{
+    color: palevioletred;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+}
