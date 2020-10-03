@@ -2,10 +2,28 @@
     margin: 0;
     padding: 0;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 nav{
     display: flex;
+    background-color: #444444;
+    border-bottom: 4px solid indianred;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4vh 10vw;
+}
+
+#siteLogo{
+
+}
+#siteLogo span{
+    color: indianred;
+}
+
+#navbar{
+    font-size: 24px;
 }
 
 nav a{
@@ -15,11 +33,74 @@ nav a{
 }
 
 #defaultNav{
-    color: palevioletred;
+    color: indianred;
 }
 
-nav ul{
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333333;
+nav li{
+    display: inline;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/showcase.jpg);
+    background-size: cover;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 10vw;
+    text-align: center;
+}
+
+#banner h1{
+    font-size: 3.5em;
+    padding: 30px;
+}
+
+#banner p{
+    font-size: 1.5em;
+}
+
+#subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70px;
+    background-color: #444444;
+    /* padding: 2vh 10vw; */
+}
+
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.mainJob{
+    max-width: 200px;
+    margin: 30px;
+}
+
+.mainJob h4{
+    color: black;
+}
+.mainJob p{
+    color: black;
+}
+
+.mainJob img{
+    width: 100px;
+}
+
+footer{
+    height: 100px;
+    background-color: peachpuff;
+    border-top: 4px solid indianred;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
 }
